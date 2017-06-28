@@ -261,26 +261,9 @@ h4 {
   /*margin-bottom: 5%;*/
 }
 #contact-list {
-  margin-top: 5%;
+  margin-top: 4.5%;
   padding-bottom: 5%
 }
-
-/*contact form*/
-/*.span-1-in-3 {
-  width: 32.26%;
-}
-
-.span-2-in-3 {
-  float: right;
-}
-
-input, textarea, select {
-  font-family:inherit;
-}
-
-form {
-  margin-bottom: 50px;
-}*/
 
 /*footer*/
 .copyright {
@@ -341,7 +324,11 @@ hr {
 
 /*Small devices (landscape phones, 576px and up)*/
 
-
+@media (max-width: 576px) {
+.overlay {
+  margin-top:32%;
+  }
+}
 @media (max-width: 576px) {
 .navbar-brand {
   margin:0 auto;
@@ -369,27 +356,23 @@ height: 140px; }
 }
 
 @media (max-width: 576px) {
-.display-3 {
+.display-3 h3 {
   text-align: center;
+  font-size: 90%;
   }
 }
 
 @media (max-width: 576px) {
 .navbar-nav {
-  background-color: #575756;
+  background-color: white;
   text-align: center;
   }
 }
 
 @media (max-width: 576px) {
-.navbar-light .navbar-nav .nav-link{
-  color: #9DC41A;
-  }
-}
-
-@media (max-width: 576px) {
-.navbar-light .navbar-nav .nav-link .active {
-  color: #9DC41A;
+.dropdown-item {
+  background-color: white;
+  text-align: center;
   }
 }
 
@@ -410,6 +393,12 @@ height: 140px; }
 @media (max-width: 576px) {
 .btn-primary {
   margin-left: 12%;
+  }
+}
+
+@media (max-width: 576px) {
+.text-muted {
+  font-size: 120%;
   }
 }
 
